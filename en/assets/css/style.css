@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+hr {
+  border: 1px solid black;
+  opacity: 0.7;
+}
+
+.personal-form {
+  width: 75%;
+  margin-top: 25px;
+}
+
+.personal-form label {
+  width: 150px;
+  padding: 15px;
+}
+
+.personal-form input {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 60%;
+  margin-left: 10%;
+  transition: 0.2s;
+}
+
+.personal-form input:focus {
+  border-bottom: 1px solid black;
+  outline: none;
+  transition: 0.2s;
+}
+
+.personal-form button {
+  border: none;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.personal-form button:hover {
+  background-color: black;
+  color: #fff;
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.turn-page p {
+  opacity: 0.5;
+  margin: 0%;
+}
+
+.turn-page button {
+  margin: 0px 60px 0px 40px;
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.turn-page button:hover,
+.turn-page img {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.turn-page img {
+  width: 60px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.turn-page {
+  display: grid;
+  justify-items: center;
+}
+
+@media (max-width: 450px) {
+  .turn-page {
+    margin-top: 15px;
+  }
+
+  .turn-page {
+    width: 100%;
+  }
+
+  .turn-page button img {
+    width: 30px;
+    height: 20px;
+  }
+  .turn-page button {
+    font-size: 14px;
+    width: 100px;
+    margin: 0px 60px 0px 40px;
+  }
+}

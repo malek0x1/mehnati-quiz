@@ -1,0 +1,43 @@
+.tab{
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions {
+  width: 75%;
+}
+
+.box {
+  padding: 15px;
+  font-size: 25px;
+  margin-left: 50%;
+  text-align: center;
+}
+
+hr{border: black 1px solid;}
+
+input[type="radio"] {
+  vertical-align: top;
+  border: 2px solid #ddd;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  accent-color: black;
+}
+
+.child {
+  padding-left: 15px;
+}
+
+.child p {
+  padding-top: 5px;
+  text-align: left;
+}
